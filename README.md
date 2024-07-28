@@ -1,4 +1,8 @@
-# iOS
+# Capacitor
 
-> The vcassist iOS app.
+> The vcassist capacitor app.
+
+## Commands
+
+- `git submodule foreach --recursive "git pull origin main"` - updates all submodules
 
