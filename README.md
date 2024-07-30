@@ -5,12 +5,11 @@
 ## Quick start
 
 ```
-git submodule update --remote
+git submodule update --init --recursive
 git submodule foreach --recursive "pnpm install"
 ```
 
 ## Commands
 
 - `git submodule update --remote` - updates all submodules
-- `git submodule foreach --recursive "pnpm install"` - install all dependencies for this project
 
