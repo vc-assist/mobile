@@ -1,0 +1,27 @@
+{
+  "name": "@vcassist/capacitor",
+  "description": "The vcassist capacitor app.",
+  "scripts": {
+    "build:frontend": "cd frontend && pnpm build",
+    "build:native-api": "esbuild native-api/index.ts --bundle --minify --target=chrome89,edge89,safari15,firefox89 --format=esm --outfile=frontend/dist/native_api.js",
+    "build": "pnpm build:frontend && pnpm build:native-api",
+    "cap": "cap"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.1",
+    "@capacitor/browser": "^6.0.1",
+    "@capacitor/core": "^6.1.1",
+    "@capacitor/device": "^6.0.0",
+    "@capacitor/ios": "^6.1.1",
+    "@capgo/inappbrowser": "^6.0.35",
+    "capacitor-email-composer": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.1",
+    "@types/node": "^20.14.12",
+    "esbuild": "^0.23.0",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.5.4"
+  },
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+}
