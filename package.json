@@ -1,6 +1,6 @@
 {
-  "name": "@vcassist/capacitor",
-  "description": "The vcassist capacitor app.",
+  "name": "vcassist",
+  "description": "The vcassist mobile app.",
   "scripts": {
     "build:frontend": "cd frontend && pnpm build",
     "build:native-api": "esbuild native-api/index.ts --bundle --minify --target=chrome89,edge89,safari15,firefox89 --format=esm --outfile=frontend/dist/native_api.js",

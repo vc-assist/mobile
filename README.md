@@ -1,6 +1,6 @@
-# Capacitor
+# Mobile
 
-> The vcassist capacitor app.
+> The vcassist mobile app.
 
 ## Quick start
 
