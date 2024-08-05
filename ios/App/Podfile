@@ -13,7 +13,7 @@ def capacitor_pods
   pod 'CapacitorCordova', :path => '../../node_modules/.pnpm/@capacitor+ios@6.1.1_@capacitor+core@6.1.1/node_modules/@capacitor/ios'
   pod 'CapacitorBrowser', :path => '../../node_modules/.pnpm/@capacitor+browser@6.0.1_@capacitor+core@6.1.1/node_modules/@capacitor/browser'
   pod 'CapacitorDevice', :path => '../../node_modules/.pnpm/@capacitor+device@6.0.0_@capacitor+core@6.1.1/node_modules/@capacitor/device'
-  pod 'CapgoInappbrowser', :path => '../../node_modules/.pnpm/@capgo+inappbrowser@6.0.35_@capacitor+core@6.1.1/node_modules/@capgo/inappbrowser'
+  pod 'CapgoInappbrowser', :path => '../../node_modules/.pnpm/@capgo+inappbrowser@6.0.39_@capacitor+core@6.1.1/node_modules/@capgo/inappbrowser'
   pod 'CapacitorEmailComposer', :path => '../../node_modules/.pnpm/capacitor-email-composer@6.0.0_@capacitor+core@6.1.1/node_modules/capacitor-email-composer'
 end
 

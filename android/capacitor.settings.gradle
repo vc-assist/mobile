@@ -9,7 +9,7 @@ include ':capacitor-device'
 project(':capacitor-device').projectDir = new File('../node_modules/.pnpm/@capacitor+device@6.0.0_@capacitor+core@6.1.1/node_modules/@capacitor/device/android')
 
 include ':capgo-inappbrowser'
-project(':capgo-inappbrowser').projectDir = new File('../node_modules/.pnpm/@capgo+inappbrowser@6.0.35_@capacitor+core@6.1.1/node_modules/@capgo/inappbrowser/android')
+project(':capgo-inappbrowser').projectDir = new File('../node_modules/.pnpm/@capgo+inappbrowser@6.0.39_@capacitor+core@6.1.1/node_modules/@capgo/inappbrowser/android')
 
 include ':capacitor-email-composer'
 project(':capacitor-email-composer').projectDir = new File('../node_modules/.pnpm/capacitor-email-composer@6.0.0_@capacitor+core@6.1.1/node_modules/capacitor-email-composer/android')
