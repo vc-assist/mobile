@@ -13,6 +13,7 @@ dependencies {
     implementation project(':capacitor-device')
     implementation project(':capgo-inappbrowser')
     implementation project(':capacitor-email-composer')
+    implementation project(':capacitor-plugin-safe-area')
 
 }
 

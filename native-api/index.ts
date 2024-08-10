@@ -7,7 +7,7 @@ import { SafeArea } from "capacitor-plugin-safe-area"
 import type { NativeAPI } from "../frontend/lib/native"
 import { type SafeArea as Insets } from '../frontend/ui'
 
-export default class CapacitorAPI implements NativeAPI {
+class CapacitorAPI implements NativeAPI {
   launchUrl(url: string): Promise<void> {
     if (!url.startsWith("mailto:")) {
       return Browser.open({ url })
@@ -61,8 +61,16 @@ export default class CapacitorAPI implements NativeAPI {
     return () => handle.remove()
   }
 
-  async safeArea(): Promise<Insets> {
+  async onSafeAreaChange(fn: (safeArea: Insets) => void): Promise<() => Promise<void>> {
     const { insets } = await SafeArea.getSafeAreaInsets()
-    return insets
+    fn(insets)
+
+    const handle = await SafeArea.addListener("safeAreaChanged", ({ insets }) => {
+      fn(insets)
+    })
+
+    return () => handle.remove()
   }
 }
+
+export default new CapacitorAPI()

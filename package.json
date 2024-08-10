@@ -3,23 +3,23 @@
   "description": "The vcassist mobile app.",
   "scripts": {
     "build:frontend": "cd frontend && pnpm build",
-    "build:native-api": "esbuild native-api/index.ts --bundle --minify --target=chrome89,edge89,safari15,firefox89 --format=esm --outfile=frontend/dist/native_api.js",
+    "build:native-api": "esbuild native-api/index.ts --minify --bundle --target=chrome89,edge89,safari15,firefox89 --format=esm --outfile=frontend/dist/assets/native_api.js",
     "build": "pnpm build:frontend && pnpm build:native-api",
     "cap": "cap"
   },
   "dependencies": {
-    "@capacitor/android": "^6.1.1",
-    "@capacitor/browser": "^6.0.1",
-    "@capacitor/core": "^6.1.1",
-    "@capacitor/device": "^6.0.0",
-    "@capacitor/ios": "^6.1.1",
-    "@capgo/inappbrowser": "^6.0.39",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/browser": "^6.0.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/device": "^6.0.1",
+    "@capacitor/ios": "^6.1.2",
+    "@capgo/inappbrowser": "^6.0.41",
     "capacitor-email-composer": "^6.0.0",
     "capacitor-plugin-safe-area": "^3.0.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "^6.1.1",
-    "@types/node": "^20.14.14",
+    "@capacitor/cli": "^6.1.2",
+    "@types/node": "^22.2.0",
     "esbuild": "^0.23.0",
     "shelljs": "^0.8.5",
     "typescript": "^5.5.4"

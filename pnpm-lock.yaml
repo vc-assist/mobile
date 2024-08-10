@@ -9,36 +9,36 @@ importers:
   .:
     dependencies:
       '@capacitor/android':
-        specifier: ^6.1.1
-        version: 6.1.1(@capacitor/core@6.1.1)
+        specifier: ^6.1.2
+        version: 6.1.2(@capacitor/core@6.1.2)
       '@capacitor/browser':
-        specifier: ^6.0.1
-        version: 6.0.1(@capacitor/core@6.1.1)
+        specifier: ^6.0.2
+        version: 6.0.2(@capacitor/core@6.1.2)
       '@capacitor/core':
-        specifier: ^6.1.1
-        version: 6.1.1
+        specifier: ^6.1.2
+        version: 6.1.2
       '@capacitor/device':
-        specifier: ^6.0.0
-        version: 6.0.0(@capacitor/core@6.1.1)
+        specifier: ^6.0.1
+        version: 6.0.1(@capacitor/core@6.1.2)
       '@capacitor/ios':
-        specifier: ^6.1.1
-        version: 6.1.1(@capacitor/core@6.1.1)
+        specifier: ^6.1.2
+        version: 6.1.2(@capacitor/core@6.1.2)
       '@capgo/inappbrowser':
-        specifier: ^6.0.39
-        version: 6.0.39(@capacitor/core@6.1.1)
+        specifier: ^6.0.41
+        version: 6.0.41(@capacitor/core@6.1.2)
       capacitor-email-composer:
         specifier: ^6.0.0
-        version: 6.0.0(@capacitor/core@6.1.1)
+        version: 6.0.0(@capacitor/core@6.1.2)
       capacitor-plugin-safe-area:
         specifier: ^3.0.3
-        version: 3.0.3(@capacitor/core@6.1.1)
+        version: 3.0.3(@capacitor/core@6.1.2)
     devDependencies:
       '@capacitor/cli':
-        specifier: ^6.1.1
-        version: 6.1.1
+        specifier: ^6.1.2
+        version: 6.1.2
       '@types/node':
-        specifier: ^20.14.14
-        version: 20.14.14
+        specifier: ^22.2.0
+        version: 22.2.0
       esbuild:
         specifier: ^0.23.0
         version: 0.23.0
@@ -51,36 +51,36 @@ importers:
 
 packages:
 
-  '@capacitor/android@6.1.1':
-    resolution: {integrity: sha512-rhO/nH6NJizGV5KizoIoGxCmkos3HnyUzI9TNv8IVy/C8h6lPM5Gt9cxGclb6k0OBTtgv6iJVo654+m4kzv0Qg==}
+  '@capacitor/android@6.1.2':
+    resolution: {integrity: sha512-Yh0gQDY1bgRrL25J6ecIlvvs2kF8iNSwIPXjyw6Yz9mnwYxBazF5KZbjpKtGPnJgicJhFkYGsqOkEtxrve0EoQ==}
     peerDependencies:
       '@capacitor/core': ^6.1.0
 
-  '@capacitor/browser@6.0.1':
-    resolution: {integrity: sha512-KBK0PKfmUj0if+gYWEh0+LG70l1gcLGbDCWJt2Ig3naXHGlrLoWBqVArCgbwBzwJZL+VlwW7iEhAzGOWpg2jhw==}
+  '@capacitor/browser@6.0.2':
+    resolution: {integrity: sha512-mJjdKbpdCAaaDVZD/vjzpJJxL1VvwsGTcEGn+4PpCQyPu3+yNQO7vgjwBV7ZYS6+mZIKeYn5swWq0BFuAcDqFg==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
-  '@capacitor/cli@6.1.1':
-    resolution: {integrity: sha512-rsRqEadfnBSUX90RZj59oXvi30bpSusLMfIcgbOIArOloTgfaaWr9R471F6m3gGWF7BhNoskJpZcCgSUsfywwA==}
+  '@capacitor/cli@6.1.2':
+    resolution: {integrity: sha512-HKCNGE0RP8U7aiEF2vg5wTivJROS8BVfu8a3yYJb1mRQvzv+czpmtHNsTWS/WukvwoxUjyjRmsNQSAACHfMTmQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@capacitor/core@6.1.1':
-    resolution: {integrity: sha512-b1s4WDMy3Y1/owTG2/XNGCI6G5SDpF2NT1JMAgcShue13fiAuHA+Ans7Wfei6McvR0KdopAE6tMHmDAfL5PM8Q==}
+  '@capacitor/core@6.1.2':
+    resolution: {integrity: sha512-xFy1/4qLFLp5WCIzIhtwUuVNNoz36+V7/BzHmLqgVJcvotc4MMjswW/TshnPQaLLujEOaLkA4h8ZJ0uoK3ImGg==}
 
-  '@capacitor/device@6.0.0':
-    resolution: {integrity: sha512-3cV4XcH9pTWcstecyr8rNBQvFCsxYugJdPetk898airCbV1bqZSGF2YLSoPQj4BiDITSlNgwABNwNYMCNzs/gw==}
+  '@capacitor/device@6.0.1':
+    resolution: {integrity: sha512-Tlz67DAO5GKb5YAfupXiENZxDww6mHnG9iKI+8D5SVF82VLpEv5r9qwKtiounuQB2y2HWiHV8tlOk7DqnLVUqQ==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
-  '@capacitor/ios@6.1.1':
-    resolution: {integrity: sha512-he6+Fhj6x1dSnOzM98xaPvioOU8MNO+qpodCJwnHE3mIRonTpFutXJK8DP8fnNhjDPk2km9VafLSfOeiZXNv3Q==}
+  '@capacitor/ios@6.1.2':
+    resolution: {integrity: sha512-HaeW68KisBd/7TmavzPDlL2bpoDK5AjR2ZYrqU4TlGwM88GtQfvduBCAlSCj20X0w/4+rWMkseD9dAAkacjiyQ==}
     peerDependencies:
       '@capacitor/core': ^6.1.0
 
-  '@capgo/inappbrowser@6.0.39':
-    resolution: {integrity: sha512-ZuQYvddZW8A00qeMltcFfSpnPdpBxXYU4a7q8a5IgjYM0HJH4aal5JwEO5W7Ifv8ujKwWHbMu/8VE4KDsGRkTA==}
+  '@capgo/inappbrowser@6.0.41':
+    resolution: {integrity: sha512-vthy+cppJ9x8piBReEA/6Oo5ABrv1VHxgv/fVEcTBIVazrzbgkSZ1d8Ltp1lUOHYUdUgk4l4KCAzSz+f9TSvZQ==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
@@ -279,8 +279,8 @@ packages:
   '@types/fs-extra@8.1.5':
     resolution: {integrity: sha512-0dzKcwO+S8s2kuF5Z9oUWatQJj5Uq/iqphEtE3GQJVRRYm/tD1LglU2UnXi2A8jLq5umkGouOXOR9y0n613ZwQ==}
 
-  '@types/node@20.14.14':
-    resolution: {integrity: sha512-d64f00982fS9YoOgJkAMolK7MN8Iq3TDdVjchbYHdEmjth/DHowx82GnoA+tVUAN+7vxfYUgAzi+JXbKNd2SDQ==}
+  '@types/node@22.2.0':
+    resolution: {integrity: sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==}
 
   '@types/slice-ansi@4.0.0':
     resolution: {integrity: sha512-+OpjSaq85gvlZAYINyzKpLeiFkSC4EsC6IIiT6v6TLSU5k5U83fHGj9Lel8oKEXM0HqgrMVCjXPDPVICtxF7EQ==}
@@ -635,8 +635,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.13.0:
+    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
 
   universalify@2.0.1:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
@@ -681,15 +681,15 @@ packages:
 
 snapshots:
 
-  '@capacitor/android@6.1.1(@capacitor/core@6.1.1)':
+  '@capacitor/android@6.1.2(@capacitor/core@6.1.2)':
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
-  '@capacitor/browser@6.0.1(@capacitor/core@6.1.1)':
+  '@capacitor/browser@6.0.2(@capacitor/core@6.1.2)':
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
-  '@capacitor/cli@6.1.1':
+  '@capacitor/cli@6.1.2':
     dependencies:
       '@ionic/cli-framework-output': 2.2.8
       '@ionic/utils-fs': 3.1.7
@@ -712,21 +712,21 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@capacitor/core@6.1.1':
+  '@capacitor/core@6.1.2':
     dependencies:
       tslib: 2.6.3
 
-  '@capacitor/device@6.0.0(@capacitor/core@6.1.1)':
+  '@capacitor/device@6.0.1(@capacitor/core@6.1.2)':
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
-  '@capacitor/ios@6.1.1(@capacitor/core@6.1.1)':
+  '@capacitor/ios@6.1.2(@capacitor/core@6.1.2)':
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
-  '@capgo/inappbrowser@6.0.39(@capacitor/core@6.1.1)':
+  '@capgo/inappbrowser@6.0.41(@capacitor/core@6.1.2)':
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
   '@esbuild/aix-ppc64@0.23.0':
     optional: true
@@ -919,11 +919,11 @@ snapshots:
 
   '@types/fs-extra@8.1.5':
     dependencies:
-      '@types/node': 20.14.14
+      '@types/node': 22.2.0
 
-  '@types/node@20.14.14':
+  '@types/node@22.2.0':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.13.0
 
   '@types/slice-ansi@4.0.0': {}
 
@@ -960,13 +960,13 @@ snapshots:
 
   buffer-crc32@0.2.13: {}
 
-  capacitor-email-composer@6.0.0(@capacitor/core@6.1.1):
+  capacitor-email-composer@6.0.0(@capacitor/core@6.1.2):
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
-  capacitor-plugin-safe-area@3.0.3(@capacitor/core@6.1.1):
+  capacitor-plugin-safe-area@3.0.3(@capacitor/core@6.1.2):
     dependencies:
-      '@capacitor/core': 6.1.1
+      '@capacitor/core': 6.1.2
 
   chownr@2.0.0: {}
 
@@ -1269,7 +1269,7 @@ snapshots:
 
   typescript@5.5.4: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.13.0: {}
 
   universalify@2.0.1: {}
 
