@@ -3,7 +3,9 @@ import { Capacitor } from "@capacitor/core"
 import { Device } from "@capacitor/device"
 import { InAppBrowser } from "@capgo/inappbrowser"
 import { EmailComposer } from "capacitor-email-composer"
+import { SafeArea } from "capacitor-plugin-safe-area"
 import type { NativeAPI } from "../frontend/lib/native"
+import { type SafeArea as Insets } from '../frontend/ui'
 
 export default class CapacitorAPI implements NativeAPI {
   launchUrl(url: string): Promise<void> {
@@ -57,5 +59,10 @@ export default class CapacitorAPI implements NativeAPI {
   async onWebviewClosed(fn: () => void): Promise<() => Promise<void>> {
     const handle = await InAppBrowser.addListener("closeEvent", () => fn())
     return () => handle.remove()
+  }
+
+  async safeArea(): Promise<Insets> {
+    const { insets } = await SafeArea.getSafeAreaInsets()
+    return insets
   }
 }

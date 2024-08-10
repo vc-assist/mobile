@@ -29,6 +29,9 @@ importers:
       capacitor-email-composer:
         specifier: ^6.0.0
         version: 6.0.0(@capacitor/core@6.1.1)
+      capacitor-plugin-safe-area:
+        specifier: ^3.0.3
+        version: 3.0.3(@capacitor/core@6.1.1)
     devDependencies:
       '@capacitor/cli':
         specifier: ^6.1.1
@@ -327,6 +330,11 @@ packages:
 
   capacitor-email-composer@6.0.0:
     resolution: {integrity: sha512-+C+YU1yz5h76CoHwJa97r5LlzqJjNkn0BhXLSFh1WDvAo5ZjMPpjrn1l5oxGE6HCQ6/vijKTDPuW3ONQoosvHw==}
+    peerDependencies:
+      '@capacitor/core': ^6.0.0
+
+  capacitor-plugin-safe-area@3.0.3:
+    resolution: {integrity: sha512-pDM8GQIDC9xxKLZxoO4rrshDuzZqQo6jq7Ni18cYdp2JwmLvlhTYRrvriPAicY1En59UAZ574sIvGlgUBLH3Yw==}
     peerDependencies:
       '@capacitor/core': ^6.0.0
 
@@ -953,6 +961,10 @@ snapshots:
   buffer-crc32@0.2.13: {}
 
   capacitor-email-composer@6.0.0(@capacitor/core@6.1.1):
+    dependencies:
+      '@capacitor/core': 6.1.1
+
+  capacitor-plugin-safe-area@3.0.3(@capacitor/core@6.1.1):
     dependencies:
       '@capacitor/core': 6.1.1
 
