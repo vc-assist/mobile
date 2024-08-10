@@ -9,6 +9,11 @@ const config: CapacitorConfig = {
     hostname: "localhost",
     cleartext: false,
   },
+  plugins: {
+    CapacitorHttp: {
+      enabled: true
+    }
+  }
 };
 
 export default config;
