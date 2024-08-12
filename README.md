@@ -15,6 +15,14 @@ pnpm cap build (ios|android)
 pnpm cap open (ios|android)
 ```
 
+## Project structure
+
+- `android/` - android app files
+- `ios/` - ios app files
+- `frontend/` - frontend submodule
+- `native-api/` - source files for the native API implementation
+- `capacitor.config.ts` - capacitor configuration
+
 ## Commands
 
 - `git submodule update --remote` - updates all submodules
