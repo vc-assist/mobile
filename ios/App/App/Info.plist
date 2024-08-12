@@ -75,5 +75,10 @@
 	<string>it</string>
 	<string>pt-BR</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+  </dict>
 </dict>
 </plist>
