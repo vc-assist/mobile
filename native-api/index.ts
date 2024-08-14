@@ -2,25 +2,16 @@ import { Browser } from "@capacitor/browser"
 import { Capacitor } from "@capacitor/core"
 import { Device } from "@capacitor/device"
 import { InAppBrowser } from "@capgo/inappbrowser"
-import { EmailComposer } from "capacitor-email-composer"
 import { SafeArea } from "capacitor-plugin-safe-area"
 import type { NativeAPI } from "../frontend/lib/native"
 import { type SafeArea as Insets } from '../frontend/ui'
 
 class CapacitorAPI implements NativeAPI {
   launchUrl(url: string): Promise<void> {
-    if (!url.startsWith("mailto:")) {
-      return Browser.open({ url })
+    if (url.startsWith("mailto:")) {
+      throw new Error("mailto: links do not work on mobile at the moment.")
     }
-    const parsed = new URL(url)
-    return EmailComposer.open({
-      to: [parsed.pathname],
-      cc: parsed.searchParams.getAll("cc"),
-      bcc: parsed.searchParams.getAll("bcc"),
-      subject: parsed.searchParams.get("subject") ?? undefined,
-      body: parsed.searchParams.get("body") ?? undefined,
-      isHtml: true,
-    })
+    return Browser.open({ url })
   }
 
   async userAgent(): Promise<string> {

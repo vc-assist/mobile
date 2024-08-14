@@ -14,7 +14,6 @@
     "@capacitor/device": "^6.0.1",
     "@capacitor/ios": "^6.1.2",
     "@capgo/inappbrowser": "^6.0.41",
-    "capacitor-email-composer": "^6.0.0",
     "capacitor-plugin-safe-area": "^3.0.3"
   },
   "devDependencies": {
