@@ -6,8 +6,6 @@ PODS:
   - CapacitorCordova (6.1.2)
   - CapacitorDevice (6.0.1):
     - Capacitor
-  - CapacitorEmailComposer (6.0.0):
-    - Capacitor
   - CapacitorPluginSafeArea (3.0.3):
     - Capacitor
   - CapgoInappbrowser (6.0.41):
@@ -18,7 +16,6 @@ DEPENDENCIES:
   - "CapacitorBrowser (from `../../node_modules/.pnpm/@capacitor+browser@6.0.2_@capacitor+core@6.1.2/node_modules/@capacitor/browser`)"
   - "CapacitorCordova (from `../../node_modules/.pnpm/@capacitor+ios@6.1.2_@capacitor+core@6.1.2/node_modules/@capacitor/ios`)"
   - "CapacitorDevice (from `../../node_modules/.pnpm/@capacitor+device@6.0.1_@capacitor+core@6.1.2/node_modules/@capacitor/device`)"
-  - "CapacitorEmailComposer (from `../../node_modules/.pnpm/capacitor-email-composer@6.0.0_@capacitor+core@6.1.2/node_modules/capacitor-email-composer`)"
   - "CapacitorPluginSafeArea (from `../../node_modules/.pnpm/capacitor-plugin-safe-area@3.0.3_@capacitor+core@6.1.2/node_modules/capacitor-plugin-safe-area`)"
   - "CapgoInappbrowser (from `../../node_modules/.pnpm/@capgo+inappbrowser@6.0.41_@capacitor+core@6.1.2/node_modules/@capgo/inappbrowser`)"
 
@@ -31,8 +28,6 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/.pnpm/@capacitor+ios@6.1.2_@capacitor+core@6.1.2/node_modules/@capacitor/ios"
   CapacitorDevice:
     :path: "../../node_modules/.pnpm/@capacitor+device@6.0.1_@capacitor+core@6.1.2/node_modules/@capacitor/device"
-  CapacitorEmailComposer:
-    :path: "../../node_modules/.pnpm/capacitor-email-composer@6.0.0_@capacitor+core@6.1.2/node_modules/capacitor-email-composer"
   CapacitorPluginSafeArea:
     :path: "../../node_modules/.pnpm/capacitor-plugin-safe-area@3.0.3_@capacitor+core@6.1.2/node_modules/capacitor-plugin-safe-area"
   CapgoInappbrowser:
@@ -43,10 +38,9 @@ SPEC CHECKSUMS:
   CapacitorBrowser: 83ec661a9ccd56c28a6851e4dd1ac33b181227ec
   CapacitorCordova: f48c89f96c319101cd2f0ce8a2b7449b5fb8b3dd
   CapacitorDevice: 7097a1deb4224b77fd13a6e60a355d0062a5d772
-  CapacitorEmailComposer: 3c98c8cee452377cb5706cc8c59560ca70590009
   CapacitorPluginSafeArea: e1eca7f70974f0e270d96f70cd0a5f51523164b1
   CapgoInappbrowser: cf24eb0496d3d5423ec4fd13daa63fe26783cd05
 
-PODFILE CHECKSUM: 9ccfa5e720f3a679da5a4a49ec1d5d1fbfb7e51a
+PODFILE CHECKSUM: 261c7dcf6717082c7c5dad8a5dcf37d4a5c74ff7
 
 COCOAPODS: 1.14.3
